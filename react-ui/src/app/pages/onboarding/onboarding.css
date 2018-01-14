@@ -1,0 +1,35 @@
+.on-boarding {
+  display: inline-block;
+  vertical-align: middle; }
+  .on-boarding .on-boarding-header {
+    text-transform: uppercase;
+    margin-bottom: 70px; }
+  .on-boarding .on-boarding-content {
+    display: flex;
+    justify-content: center; }
+  .on-boarding .on-boarding-card {
+    border: 1px solid black;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    color: #ED3351; }
+    .on-boarding .on-boarding-card:last-child {
+      margin-right: 0; }
+    .on-boarding .on-boarding-card .principal-icon {
+      margin-bottom: 15px; }
+    .on-boarding .on-boarding-card p {
+      margin: 0; }
+    .on-boarding .on-boarding-card .advantage-icon {
+      margin-top: 15px; }
+    .on-boarding .on-boarding-card.activate-card {
+      background-color: #ED3351;
+      color: white;
+      font-weight: bold;
+      border: #f8efef 5px solid; }

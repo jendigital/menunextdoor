@@ -1,1 +1,23 @@
- 
+$mnd-pink: #ED3351;
+$grey-white: rgb(248, 239, 239);
+
+.validation {
+    text-align: center;
+
+    button {
+        margin-top: 70px;
+        color: white;
+        background-color: $mnd-pink;
+        padding: 10px 25px;
+        text-transform: uppercase;
+        border-radius: 5px;
+
+        &.inactive {
+            opacity: 0.5;
+        }
+
+        &:focus, &:active {
+            outline-color: black;
+        }
+    }
+}

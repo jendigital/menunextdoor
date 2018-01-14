@@ -1,0 +1,13 @@
+.validation {
+  text-align: center; }
+  .validation button {
+    margin-top: 70px;
+    color: white;
+    background-color: #ED3351;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-radius: 5px; }
+    .validation button.inactive {
+      opacity: 0.5; }
+    .validation button:focus, .validation button:active {
+      outline-color: black; }

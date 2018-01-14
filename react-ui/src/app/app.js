@@ -7,6 +7,9 @@ import HowItWorks from './pages/onboarding/howitworks'
 import ChiefType from './pages/onboarding/chieftype'
 import Presentation from './pages/onboarding/presentation'
 
+import './app.css'
+import './assets/stylesheets/mndicons.css'
+
 class App extends Component {
     render() {
         return (
