@@ -3,30 +3,32 @@ import React, { Component } from 'react';
 import './index.css';
 import Validation from '../components/validation';
 
-class WhyChief extends Component {
+class Values extends Component {
     render() {
         return (
             <div className='on-boarding'>
                 <div className='header on-boarding-header'>
                     <h3>
-                        Pourquoi devenir chef sur menu next door ?
+                        Les engagements du chef menu next door
                     </h3>
+
                     <h5>
-                        Cochez chacune des cards pour montrer que vous avez compris.
+                        J'appartient à la communauté Menu Next Door si je défends les valeurs suivantes:
+                        Cochez chacune des cards pour adhérer aux valeurs de la communauté.
                     </h5>
                 </div>
                 <div className='content on-boarding-content'>
                     <div className='card on-boarding-card' >
-                        Travaillez depuis chez vous
+                        Produit frais, biologique ou locaux respectueux de notre planète et de notre santé.
                     </div>
                     <div className='card on-boarding-card' >
-                        Gagnez de l'argent grâce à votre passion
+                        Cuisiné avec amour 
                     </div>
                     <div className='card on-boarding-card' >
-                        Partagez votre plaisir de cuisiner
+                        Créer du lien social avec les habitants de votre quartier et ville.
                     </div>
                     <div className='card on-boarding-card' >
-                        Simplement sécurisé grâce à une assurance dans la restauration
+                        Prix abordables pour tous
                     </div>
                 </div>
                 <Validation />
@@ -35,4 +37,4 @@ class WhyChief extends Component {
     }
 }
 
-export default WhyChief;
+export default Values;
